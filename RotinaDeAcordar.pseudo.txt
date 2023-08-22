@@ -1,0 +1,40 @@
+Algoritmo RotinaDeAcordar
+Var
+    horaAtual, alarme: Inteiro
+
+Inicio
+    Escrever("Bom dia! Vamos começar a rotina de acordar.")
+
+    // Passo 1: Verificar a hora atual
+    Escrever("Que horas são?")
+    Ler(horaAtual)
+
+    // Passo 2: Definir o alarme
+    alarme <- horaAtual + 7
+
+    // Passo 3: Dormir mais um pouco ou levantar?
+    Se horaAtual < alarme Então
+        Escrever("Ainda é cedo. Vou dormir mais um pouco.")
+    Senão
+        Escrever("Hora de acordar!")
+
+    // Passo 4: Levantar da cama
+    Escrever("Levantar da cama com cuidado.")
+    Escrever("Alongar o corpo e espreguiçar.")
+    Escrever("Vamos começar o dia!")
+
+    // Passo 5: Higiene pessoal
+    Escrever("Escovar os dentes.")
+    Escrever("Lavar o rosto e as mãos.")
+    Escrever("Tomar um banho para se refrescar.")
+
+    // Passo 6: Café da manhã
+    Escrever("Preparar um café da manhã saudável.")
+    Escrever("Comer devagar e tomar um copo de água.")
+
+    // Passo 7: Vestir-se
+    Escrever("Escolher roupas adequadas para o dia.")
+    Escrever("Calçar os sapatos.")
+
+    Escrever("Pronto! Sua rotina de acordar está completa.")
+Fim
